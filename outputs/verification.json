@@ -9,5 +9,8 @@
     "four output files reproduced from packaged CSVs",
     "report key numbers checked"
   ],
-  "report_pages": 8
+  "report_pages": 3,
+  "report_level": "고등학교 2학년",
+  "report_links": "PDF and DOCX GitHub links verified",
+  "report_numeric_examples": "checked against existing analysis outputs"
 }

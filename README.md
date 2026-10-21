@@ -1,8 +1,10 @@
 # 제설제 탐구 완료 결과
 
-외부 물 1 kg의 결빙 억제를 기준으로 NaCl과 CaCl2의 필요량·가격비·염화물 투입량·희석 한계를 계산했다. 공개된 실제 융빙 관측값도 재분석했다. 전체 결과는 [PDF 보고서](탐구_결과보고서.pdf), [Word 보고서](탐구_결과보고서.docx), [본문 Markdown](탐구_결과보고서.md)에서 확인할 수 있다.
+외부 물 1 kg의 결빙 억제를 기준으로 NaCl과 CaCl2의 필요량·가격비·염화물 투입량·희석 한계를 계산했다. 공개된 실제 융빙 관측값도 재분석했다. 고2 수준의 핵심 설명을 담은 **3쪽 보고서**는 [PDF 보고서](탐구_결과보고서.pdf), [Word 보고서](탐구_결과보고서.docx), [본문 Markdown](탐구_결과보고서.md)에서 확인할 수 있다.
 
-![온도와 가격비에 따른 재료비 선택 지도](outputs/04_decision_map.png)
+![물 1 kg을 -10°C에서 얼지 않는 농도로 만드는 데 필요한 양](outputs/08_report_comparison.png)
+
+보고서는 농도와 어는점 내림, 간단한 계산 예시, 온도별 필요량과 비용 비교를 중심으로 정리했다. 소스 코드와 입력 자료의 GitHub 링크도 보고서 안에 넣었다. 상세 통계 결과는 저장소의 코드와 outputs/에서 확인할 수 있다.
 
 ## 실행
 
@@ -30,7 +32,7 @@ python make_report.py
 ## 파일
 
 - analyze.py: 자료 검증, 계산과 그림 7개, 계층 부트스트랩 30,000회.
-- make_report.py: 실행 결과로 Markdown·Word·PDF 보고서 생성.
+- make_report.py: 계산 결과로 고2 수준의 3쪽 보고서(Markdown·Word·PDF)와 간단한 비교 그래프 생성.
 - data/phase_points.csv: 물성 131행. 서로 다른 출처·단위판의 값을 구분한다.
 - data/imc_observations.csv: 실제 공개 관측값 120개와 원문 선별 플래그.
 - data/purchase_notice.json: 구매 공고의 예산·질량·규격 하한 전사와 접근 한계.
