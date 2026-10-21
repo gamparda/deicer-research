@@ -1,0 +1,3 @@
+subset,groups,observations_per_chemical,ca32_imc_mean,mg29_imc_mean,ratio_mg_to_ca,ratio_bootstrap_low,ratio_bootstrap_high,resamples,seed,conditioning_temperature_f,duration_min
+source_selected,5,25,0.305708,0.37706800000000007,1.2334253601475922,1.1745890402856491,1.288487806659545,30000,20261021,0,15
+all_reported,8,40,0.329525,0.38338,1.1634322130339123,1.0327650851825558,1.2566046472261048,30000,20261021,0,15

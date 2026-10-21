@@ -1,0 +1,13 @@
+{
+  "csv_reproduction": "passed",
+  "numeric_tolerance_relative": 1e-10,
+  "checks": [
+    "mass balance",
+    "manual three source anchors",
+    "no extrapolation",
+    "published observation count",
+    "four output files reproduced from packaged CSVs",
+    "report key numbers checked"
+  ],
+  "report_pages": 8
+}

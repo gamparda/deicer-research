@@ -1,0 +1,42 @@
+[
+  {
+    "item": "ASHRAE2017",
+    "decision": "primary",
+    "reason": "Same-edition tables for both salts; use dilute branch only."
+  },
+  {
+    "item": "OXY2026_F + ASHRAE2025 Na",
+    "decision": "alternative_source_scenario",
+    "reason": "Manufacturer typical properties; integer-F converted to C; not pooled with pure brine data."
+  },
+  {
+    "item": "OXY2026_C",
+    "decision": "rounding_source_sensitivity",
+    "reason": "Integer-C tabulation has plateaus and differs from converted F table."
+  },
+  {
+    "item": "ASHRAE2025 CaCl2 Table 1A",
+    "decision": "not_used_for_main_conclusion",
+    "reason": "Concentrated phase branch conflicts with other sources; cause unresolved."
+  },
+  {
+    "item": "FHWA Appendix B -10C examples",
+    "decision": "context_only",
+    "reason": "Approximate graph-derived examples disagree with Appendix A tabulated values."
+  },
+  {
+    "item": "2025 Gwangju notice",
+    "decision": "budget_price_scenario",
+    "reason": "Reposted notice, not awarded contract. Minimum active fractions are modeled; actual composition unknown."
+  },
+  {
+    "item": "IMC NaCl vs Ca/Mg",
+    "decision": "cross_temperature_ranking_excluded",
+    "reason": "15 F vs 0 F."
+  },
+  {
+    "item": "IMC density-to-chloride conversion",
+    "decision": "not_computed",
+    "reason": "Compatible volume-metering density and temperature not established."
+  }
+]

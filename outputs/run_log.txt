@@ -1,0 +1,28 @@
+ source_set  temperature_c  nacl_pure_g  cacl2_pure_g  cacl2_dihydrate_g  dihydrate_price_break_even
+   동일편람2017          -18.0     268.2927      250.0000           360.4198                      0.7444
+   동일편람2017          -15.0     230.7692      223.9021           319.8455                      0.7215
+   동일편람2017          -10.0     161.4402      172.7079           242.3701                      0.6661
+   동일편람2017           -5.0      86.9565      104.1009           142.7225                      0.6093
+제조사F+Na2025          -18.0     267.9470      231.5271           331.6232                      0.8080
+제조사F+Na2025          -15.0     231.7328      204.8193           290.6438                      0.7973
+제조사F+Na2025          -10.0     163.6453      149.4253           208.0305                      0.7866
+제조사F+Na2025           -5.0      85.6079       81.0811           110.3090                      0.7761
+제조사C+Na2025          -18.0     267.9470      234.5679           336.3377                      0.7967
+제조사C+Na2025          -15.0     231.7328      204.8193           290.6438                      0.7973
+제조사C+Na2025          -10.0     163.6453      149.4253           208.0305                      0.7866
+제조사C+Na2025           -5.0      85.6079       75.2688           102.2034                      0.8376
+
+BOOTSTRAP
+          subset  groups  observations_per_chemical  ca32_imc_mean  mg29_imc_mean  ratio_mg_to_ca  ratio_bootstrap_low  ratio_bootstrap_high  resamples     seed  conditioning_temperature_f  duration_min
+source_selected       5                         25        0.30571        0.37707         1.23343              1.17459               1.28849      30000 20261021                           0            15
+   all_reported       8                         40        0.32952        0.38338         1.16343              1.03277               1.25660      30000 20261021                           0            15
+
+BUDGET EXAMPLE AT -10 C
+             nacl_cost_krw         cacl2_cost_krw         ca_to_na_cost_ratio       
+                      min     max            min     max                 min    max
+source_set                                                                         
+동일편람2017           16.714  17.204          42.36  45.097               2.462  2.698
+제조사C+Na2025        16.942  17.446          36.65  38.680               2.101  2.283
+제조사F+Na2025        16.942  17.446          36.65  38.680               2.101  2.283
+
+VALIDATION PASSED

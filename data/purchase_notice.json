@@ -1,0 +1,15 @@
+{
+  "notice_id": "R25BK01063857-000",
+  "notice_date": "2025-09-22",
+  "institution": "경기도 광주시",
+  "title": "제설용 자재(염화칼슘, 소금) 구입",
+  "source_url": "https://www.bidpro.co.kr/n0_ipchal/konggo/item/konggo_view.asp?num=5299613",
+  "evidence_type": "공고 재게시본의 검색·열람 도구 반환 텍스트에서 전사",
+  "source_access_date": "2026-10-21",
+  "price_status": "부가세 포함 공고 예산, 유찰 표시, 낙찰·계약가 아님",
+  "source_access_note": "초기 열람에서 구매 내역 텍스트 확인. 직접 받은 HTML에는 원문 내역이 없었고 G2B 원파일 다운로드는 HTTP 503으로 실패. 가격 사례용으로 사용.",
+  "items": [
+    {"chemical": "NaCl", "mass_kg": 338000, "budget_krw": 29744000, "active_fraction_min": 0.85},
+    {"chemical": "CaCl2", "mass_kg": 331000, "budget_krw": 60076500, "active_fraction_min": 0.74}
+  ]
+}
